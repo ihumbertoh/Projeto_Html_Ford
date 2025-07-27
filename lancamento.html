@@ -1,40 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ford</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <img src="img/logo-ford-256.png" alt="Logo da Ford" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="lancamento.html">Lançamento</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container">
+        <a href="index.html">
+          <img src="./img/logo-ford-256.png" alt="Logo da Ford" class="logo" />
+        </a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lancamento.html">Lançamento</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-        </main>
+      <div class="container">
+        <section id="video_section">
+          <h2>Ford Ranger 2022 | Gerações</h2>
+          <div class="video_container">
+            <iframe
+              src="https://www.youtube.com/embed/vQsryuNmsL0?si=cClSaHvXEcdSw1lL"
+              title="Ford Ranger 2022 | Gerações"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <p>
+            Este vídeo promocional destaca a história e a evolução, mostrando
+            como a picape Ford Ranger se encaixa em suas vidas.
+          </p>
+        </section>
+
+        <section id="galeria_section">
+          <h3>Galeria de Imagens</h3>
+          <div class="galeria_imagens">
+            <img src="./img/XL Cabine.jpg" alt="XL Cabine" />
+            <img src="./img/xls 2.2 diesel.jpg" alt="Xls 2.2" />
+            <img src="./img/storm.jpg" alt="Storm" />
+          </div>
+        </section>
+
+        <section id="tabela_comparacao">
+          <h3>Modelos e Preços</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Modelo</th>
+                <th>Motor</th>
+                <th>Preço (a partir de)</th>
+                <th>Comparar</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>XL Cabine Simples 2.2 Diesel</td>
+                <td>4X4 MT 2022</td>
+                <td>R$ 183.850,00</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+
+              <tr>
+                <td>XLS 2.2 Diesel</td>
+                <td>4X4 AT 2022</td>
+                <td>R$ 220.690,00</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+
+              <tr>
+                <td>Storm 3.2 Diesel</td>
+                <td>4X4 AT 2022</td>
+                <td>R$ 222.790,00</td>
+                <td><input type="checkbox" /></td>
+              </tr>
+            </tbody>
+          </table>
+          <button type="button">Comparar Selecionados</button>
+        </section>
+      </div>
+    </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Ford. Todos os direitos reservados.</p>
-            <div class="social-links">
-                <a href="#"><img src="./img/facebook-50.png" alt="Facebook"></a>
-                <a href="#"><img src="./img/instagram-logo-50.png" alt="Instagram"></a>
-                <a href="#"><img src="./img/youtube-squared-50.png" alt="YouTube"></a>
-            </div>
+      <div class="container">
+        <p>&copy; 2025 Ford. Todos os direitos reservados.</p>
+        <div class="social-links">
+          <a href="#"><img src="./img/facebook-50.png" alt="Facebook" /></a>
+          <a href="#"
+            ><img src="./img/instagram-logo-50.png" alt="Instagram"
+          /></a>
+          <a href="#"
+            ><img src="./img/youtube-squared-50.png" alt="YouTube"
+          /></a>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
