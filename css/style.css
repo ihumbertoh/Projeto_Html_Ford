@@ -20,20 +20,23 @@ body {
 
 /* Estilo do Cabeçalho */
 header {
-  background-color: #00143a;
+  background-color: #d7d7d7;
   padding: 15px 0;
   color: white;
 }
 
 header .container {
   display: flex;
-  justify-content: space-between;
+  justify-content:  space-between;
   align-items: center;
+  position: relative;
+  height: 50px;
 }
 
 header .logo {
   height: 50px;
 }
+
 
 header nav ul {
   list-style: none;
@@ -42,7 +45,7 @@ header nav ul {
 }
 
 header nav a {
-  color: #9ecad6;
+  color: #2754a8;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
@@ -111,17 +114,37 @@ main {
   height: 100%;
 }
 
-.galeria-imagens {
-  display: flex;
-  gap: 20px;
+/* Estilo para a seção de modelos */
+#modelo_section {
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.galeria-imagens img {
-  width: 100%;
-  border-radius: 8px;
+.modelo_carro {
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.modelo_carro img {
+  width: 50%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.modelo_carro .texto_carro {
+  background-color: #efefef;
+  padding: 10px;
+  margin-top: -5px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
 /* Estilos da Tabela */
 table {
   width: 100%;
@@ -157,7 +180,7 @@ tabletbody tr:nth-child(even) {
 
 /* Estilo do Rodapé  */
 footer {
-  background-color: #00143a;
+  background-color: #2754a8;
   color: white;
   padding: 20px 0;
   margin-top: auto;
